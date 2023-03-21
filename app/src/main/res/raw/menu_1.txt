@@ -1,0 +1,6 @@
+@Override
+public void onCreateOptionsMenu(ContextMenu menu, View v, ContextMenuInfo menuInfo) {
+    super.onCreateContextMenu(menu, v, menuInfo);
+    MenuInflater inflater = getMenuInflater();
+    inflater.inflate(R.menu.menu_example, menu);
+}

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Android Studio Tutorial</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="link">Step 1. Create a Account in Google Cloud Console.  <a href="https://console.cloud.google.com/welcome?project=my-application-360107">Google Cloud Console link </a>
+    </string>
+    <string name="intent_1"> <a href="https://developer.android.com/guide/components/intents-filters">Click here to go to official developer website for intent</a></string>
+    <string name="intent_2"> <a href="https://www.geeksforgeeks.org/implicit-and-explicit-intents-in-android-with-examples/">Click here know more with example</a></string>
+    <string name="create"> <a href="https://www.geeksforgeeks.org/how-to-create-and-add-data-to-sqlite-database-in-android/">Create Database</a></string>
+    <string name="read"> <a href="https://www.geeksforgeeks.org/how-to-read-data-from-sqlite-database-in-android//">Read Database</a></string>
+    <string name="update"> <a href="https://www.geeksforgeeks.org/how-to-update-data-to-sqlite-database-in-android/">Update Database</a></string>
+    <string name="delete"> <a href="https://www.geeksforgeeks.org/how-to-delete-data-in-sqlite-database-in-android/">Delete Database</a></string>
+    <string name="link_as"> <a href="https://developer.android.com/studio">Download Link For Android Studio</a></string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Log in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

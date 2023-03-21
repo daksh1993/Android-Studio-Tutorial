@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Toast_info_Act"
+    android:orientation="vertical">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/purple_700">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:src="@drawable/back_ic"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toast"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+  </LinearLayout>
+
+
+
+  <androidx.core.widget.NestedScrollView
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      tools:context=".Toast_info_Act"
+      android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="What is a Toast ?"
+          android:textSize="25sp"
+          android:textColor="@color/black"
+          android:layout_marginTop="20dp"
+          android:layout_marginStart="20dp"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="A Toast is a feedback message. It takes a very little space for displaying while overall activity is interactive and visible to the user."
+          android:textSize="20sp"
+          android:layout_marginTop="20dp"
+          android:layout_marginStart="15dp"
+          android:layout_marginEnd="15dp"
+          android:textAlignment="center"/>
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Another type of Toast is custom Toast, in which images can be used instead of a simple message."
+          android:textSize="20sp"
+          android:layout_marginTop="10dp"
+          android:layout_marginStart="15dp"
+          android:layout_marginEnd="15dp"
+          android:textAlignment="center"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="It disappears after a few seconds automatically."
+          android:textSize="20sp"
+          android:layout_marginTop="10dp"
+          android:layout_marginStart="15dp"
+          android:layout_marginEnd="15dp"
+          android:textAlignment="center"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Example :- "
+          android:textSize="25sp"
+          android:textColor="@color/black"
+          android:layout_marginTop="20dp"
+          android:layout_marginStart="20dp"/>
+
+
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="200dp"
+          android:layout_margin="20dp"
+          android:scaleType="centerCrop"
+          android:src="@drawable/toast_eg"/>
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Example of How to create a Toast"
+          android:textSize="25sp"
+          android:textColor="@color/black"
+          android:layout_marginTop="20dp"
+          android:layout_marginStart="20dp"
+          />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="In this example “This a simple toast message” is a Toast message which is displayed by clicking on ‘CLICK’ button. Every time when you click your toast message appears."
+          android:textSize="20sp"
+          android:layout_marginTop="10dp"
+          android:layout_marginStart="15dp"
+          android:layout_marginEnd="15dp"
+          android:textAlignment="center"/>
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Steps to create Toast Message:- "
+          android:textSize="20sp"
+          android:textColor="@color/black"
+          android:layout_marginTop="20dp"
+          android:layout_marginStart="20dp"
+          />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Step 1: Create an XML file and a Java File."
+          android:textSize="20sp"
+          android:layout_marginTop="10dp"
+          android:layout_marginStart="15dp"
+          android:layout_marginEnd="15dp"
+          android:textAlignment="center"/>
+
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="200dp"
+          android:layout_margin="20dp"
+          android:scaleType="centerCrop"
+          android:src="@drawable/xml_eg"/>
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Step 2: Open “activity_main.xml” file and add a Button to show Toast message in a Constraint Layout.
+Also, Assign ID to button component as shown in the image and the code below. The assigned ID to the button helps to identify and to use in Java files."
+          android:textSize="20sp"
+          android:layout_marginTop="10dp"
+          android:layout_marginStart="15dp"
+          android:layout_marginEnd="15dp"
+          android:textAlignment="center"/>
+
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="200dp"
+          android:layout_margin="20dp"
+          android:scaleType="centerCrop"
+          android:src="@drawable/button_toast_eg"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Step 3: Open “MainActivity.java” file,"
+          android:textSize="20sp"
+          android:layout_marginTop="10dp"
+          android:layout_marginStart="15dp"
+          android:layout_marginEnd="15dp"
+          android:textAlignment="center"/>
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="instantiate the component (Button) created in the XML file using findViewById() method"
+          android:textSize="20sp"
+          android:layout_marginTop="5dp"
+          android:layout_marginStart="15dp"
+          android:layout_marginEnd="15dp"
+          android:textAlignment="center"/>
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="100dp"
+          android:layout_margin="20dp"
+          android:src="@drawable/btn_idcall_1"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Then Add the listener on Button and this Button will show a toast message."
+          android:textSize="20sp"
+          android:layout_marginTop="10dp"
+          android:layout_marginStart="15dp"
+          android:layout_marginEnd="15dp"
+          android:textAlignment="center"/>
+
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="100dp"
+          android:layout_margin="20dp"
+          android:src="@drawable/btn_idcall_2"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Step 4: Add Toast Statement"
+          android:textSize="20sp"
+          android:layout_marginTop="10dp"
+          android:layout_marginStart="15dp"
+          android:layout_marginEnd="15dp"
+          android:textAlignment="center"/>
+
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="100dp"
+          android:layout_margin="1dp"
+          android:src="@drawable/toast_ed_2"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="And you are done here"
+          android:textSize="20sp"
+          android:layout_marginTop="10dp"
+          android:layout_marginBottom="20dp"
+          android:layout_gravity="center"/>
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="XML and JAVA file are provided Below"
+          android:textSize="20sp"
+          android:textStyle="bold"
+          android:textColor="@color/black"
+          android:layout_marginTop="10dp"
+          android:layout_marginBottom="20dp"
+          android:layout_gravity="center"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+  android:orientation="vertical">
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_margin="10dp"
+      android:background="@drawable/bg1"
+      >
+
+      <HorizontalScrollView
+          android:layout_width="match_parent"
+          android:layout_height="300dp">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+          <TextView
+              android:id="@+id/tView"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:scrollHorizontally="true"
+              android:text=""
+              android:padding="30dp"
+              android:textColor="@color/black"
+              />
+
+        </androidx.core.widget.NestedScrollView>
+
+      </HorizontalScrollView>
+
+</LinearLayout>
+</LinearLayout>
+
+
+
+    </LinearLayout>
+  </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/signout"
+        android:icon="@android:drawable/ic_menu_send"
+        android:title="Sign Out"/>
+
+    <item
+        android:id="@+id/picture"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="picture"/>
+
+    <item
+        android:id="@+id/mode"
+        android:icon="@android:drawable/ic_menu_call"
+        android:title="mode"/>
+
+    <item
+        android:id="@+id/about"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="calculator"/>
+
+    <item
+        android:id="@+id/exit"
+        android:title="exit"/>
+
+</menu>

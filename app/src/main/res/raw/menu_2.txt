@@ -1,0 +1,13 @@
+@Override
+public boolean onOptionsItemSelected(MenuItem item) {
+    switch (item.getItemId()) {
+        case R.id.mail:
+            // do something
+            return true;
+        case R.id.share:
+            // do something
+            return true;
+        default:
+            return super.onContextItemSelected(item);
+    }
+}

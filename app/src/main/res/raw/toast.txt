@@ -1,0 +1,35 @@
+
+XML FILE
+
+   <android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+  
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click"/>
+  
+</android.support.constraint.ConstraintLayout>
+
+
+JAVA FILE
+
+public class Calculator_Act extends AppCompatActivity {
+     private Button btn;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_calculator);
+
+           btn = (Button) findViewById(R.id.button);
+
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(Calculator_Act.this,"Toast is Added",Toast.LENGTH_LONG).show();
+            }
+        });

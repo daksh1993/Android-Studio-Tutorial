@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.rathod.androidstudiotutorial">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <application
+        android:name=".home"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/daksh_icon19931"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/daksh_icon19931_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AndroidStudioTutorial"
+        tools:targetApi="31">
+        <activity
+            android:name=".OpenFirstScreen_Act"
+            android:exported="true" >
+
+        </activity>
+        <activity
+            android:name=".splashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Login_Act"
+            android:exported="true"></activity>
+        <activity
+            android:name=".SignIn_Act"
+            android:exported="false" />
+        <activity
+            android:name=".Intro_avd"
+            android:exported="false" />
+        <activity
+            android:name=".SQlite_database_info"
+            android:exported="false" />
+        <activity
+            android:name=".Intent_info_Act"
+            android:exported="false" />
+        <activity
+            android:name=".Menu_info_Act"
+            android:exported="false" />
+        <activity
+            android:name=".Google_api_Act"
+            android:exported="false" />
+        <activity
+            android:name=".Shared_preference_Act"
+            android:exported="false" />
+        <activity
+            android:name=".Async_task_Act"
+            android:exported="false" />
+        <activity
+            android:name=".Widgets_Act"
+            android:exported="false" />
+        <activity
+            android:name=".Layout_Act"
+            android:exported="false" />
+        <activity
+            android:name=".Frag_Act"
+            android:exported="false" />
+        <activity
+            android:name=".Act_Info"
+            android:exported="false" />
+        <activity
+            android:name=".Project_Structures_Act"
+            android:exported="false" />
+        <activity
+            android:name=".Values_info_Act"
+            android:exported="false" />
+        <activity
+            android:name=".drawable_act"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Architecture_Act"
+            android:exported="false" />
+        <activity
+            android:name=".Toast_info_Act"
+            android:exported="false" />
+        <activity
+            android:name=".Manifest_info_Act"
+            android:exported="false" />
+        <activity
+            android:name=".Advance_Act"
+            android:exported="false" />
+        <activity
+            android:name=".Simple_Act"
+            android:exported="false" />
+        <activity
+            android:name=".Basic_act"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
